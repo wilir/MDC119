@@ -1,0 +1,348 @@
+1. Escreva um programa que imprima a mensagem “Bem vindo!” para o usuário. 
+
+a) Crie uma classe chamada BoasVindas com um bloco main.
+
+b) Dentro do main, utilize a classe System.out para imprimir a mensagem.
+
+c) Execute a classe e observe o resultado.
+
+
+
+2. Escreva um programa que calcule e imprima o gasto total no trimestre, sendo que em Janeiro foi gasto R$ 15.040,00, em Fevereiro R$ 23.004,70, e em Março R$ 17.010,04.
+
+a) Crie uma classe chamada BalancoTrimestral com um bloco main.
+
+b) Dentro do main, declare as variáveis chamadas gastosJaneiro, gastosFevereiro e gastosMarco, inicializando-as com 15040.00, 23004.70 e 17010.04, respectivamente.
+
+c) Crie uma variável gastosTrimestre e inicialize-a com a soma das outras três variáveis.
+
+d) Imprima a variável gastosTrimestre.
+
+e) Execute a classe e observe o resultado.
+
+
+
+3. Escreva um programa que determine se um número é par ou ímpar.
+
+a) Crie uma classe chamada NumeroParImpar com um bloco main.
+
+b) Dentro do main, declare a variável numero e inicialize com um valor.
+
+c) Crie uma variável resto e inicialize-a com o resto da divisão da variável numero por 2.
+
+d) Se a variável resto é igual a 0 então imprima Número é par, senão imprima Número é impar.
+
+e) Execute a classe e observe o resultado.
+
+
+
+4. Escreva um programa que converta um número de segundos em horas, minutos e segundos.
+
+a) Crie uma classe chamada ConversorSegundosEmHorasMinutosSegundos com um bloco main.
+
+b) Dentro do main, declare uma variável segundos e inicialize-a com um valor.
+
+c) Crie uma variável horas e inicialize-a com a divisão da variável segundos por 3600.
+
+d) Atualize a variável segundos com o resto da divisão de segundos por 3600.
+
+e) Crie uma variável minutos e inicialize-a com a divisão da variável segundos por 60.
+
+f) Atualize a variável segundos com o resto da divisão de segundos por 60.
+
+g) Imprima as variáveis horas, minutos e segundos.
+
+h) Execute a classe e observe o resultado.
+
+
+
+5. Escreva um programa que calcule o perímetro de uma circunferência.
+
+a) Crie uma classe chamada PerimetroCircunferencia com um bloco main.
+
+b) Dentro do main, declare uma constante PI com o valor 3.1416.
+
+c) Crie uma variável raio e inicialize-a com um valor.
+
+d) Crie uma variável perimetro e inicialize-a com o resultado de 2*PI*raio.
+
+e) Imprima a variável perimetro.
+
+f) Execute a classe e observe o resultado.
+
+
+
+6. Escreva um programa que imprima todos os múltiplos de 3, entre 1 e 100.
+
+a) Crie uma classes chamada MultiplosDeTres com um bloco main.
+
+b) Dentro do main, declare um laço que se repita de 1 a 100.
+
+c) Dentro do laço, se o resto do contador por 3 é igual a zero então imprima o valor do contador.
+
+d) Execute a classe e observe o resultado.
+
+
+
+7. Escreva um programa que imprima os 10 primeiros números da serie de Fibonacci.
+
+a) Crie uma classes chamada SerieFibonacci com um bloco main.
+
+b) Dentro do main, declare as variáveis anterior, numero e próximo. 
+
+c) Inicialize as variáveis numero e proximo com 0 e 1, respectivamente.
+
+d) Crie um laço que se repita 10 vezes.
+
+e) Dentro do laço, imprima a variável numero.
+
+f) Atualize a variável anterior com a variável proximo.
+
+g) Incremente a variável proximo com a variável numero.
+
+h) Atualize a variável numero com a variável anterior.
+
+i) Execute a classe e observe o resultado.
+
+
+
+8. Escreva um programa que leia dois números inteiros e determine qual é o menor.
+
+a) Crie uma classe chamada MenorNumero com um bloco main.
+
+b) Acrescente a linha import java.util.Scanner; antes da declaração da classe.
+
+c) Dentro do main, utilize a classe Scanner para ler duas variáveis numeroX e numeroY.
+
+d) Se numeroX é menor que numeroY então imprima a variável numeroX, senão imprima a variável numeroY.
+
+e) Execute a classe e observe o resultado.
+
+
+
+9. Escreva um programa que leia um ano e verifique se ele é bissexto.
+
+a) Crie uma classe chamada AnoBissexto com um bloco main.
+
+b) Acrescente a linha import java.util.Scanner; antes da declaração da classe.
+
+c) Dentro do main, utilize a classe Scanner para ler a variável ano.
+
+d) Se ano é múltiplo de 4 e não é múltiplo de 100, ou é múltiplo de 400 então imprima Ano é bissexto. Senão imprima Ano não é bissexto.
+
+e) Execute a classe e observe o resultado.
+
+
+
+10. Escreva um programa que associe um valor qualitativo a uma nota quantitativa (1=Ruim, 2=Insuficiente, 3=Suficiente, 4=Bom, 5=Ótimo).
+
+a) Crie uma classe chamada EscalaQualitativa com um bloco main.
+
+b) Acrescente a linha import java.util.Scanner; antes da declaração da classe.
+
+c) Dentro do main, utilize a classe Scanner para ler a variável nota.
+
+d) Caso a nota seja igual a 1 imprima Ruim. Caso a nota seja igual a 2 imprima Insuficiente. Caso a nota seja igual a 3 imprima Suficiente. Caso a nota seja igual a 4 imprima Bom. Caso a nota seja 5 imprima Ótimo. Caso contrário imprima Nota inválida.
+
+e) Execute a classe e observe o resultado.
+]]]1. Escreva um programa que imprima um array na sequência normal e na sequência invertida.
+
+a) Crie uma classe chamada ImprimeUmArray com um bloco main.
+
+b) Dentro do main, declare a variável arrayNumeros inicializando com os valores {1,2,3,4,5,6,7,8,9,10}.
+
+c) Declare um laço que se repita de 0 até tamanho do array e imprima cada elemento de arrayNumeros.
+
+d) Declare um laço que se repita de tamanho do array-1 até 0 e imprima cada elemento de arrayNumeros.
+
+e) Execute a classe e observe o resultado.
+
+
+
+2. Escreva um programa que imprima o valor do elemento de um array a partir do índice informado pelo usuário.
+
+a) Crie uma classe chamada LocalizaElementoNoArray com um bloco main.
+
+b) Acrescente a linha import java.util.Scanner; antes da declaração da classe.
+
+c) Dentro do main, declare a variável arrayNumeros inicializando com os valores {5,2,6,7,9,10,1,4,3,8}.
+
+d) Utilize a classe Scanner para ler a variável indice.
+
+e) Imprima o elemento de arrayNumeros na posição indice.
+
+f) Execute a classe e observe o resultado.
+
+
+
+3. Escreva um programa que permita ao usuário preencher um array de 10 números e, em seguida, imprima os valores lidos.
+
+a) Crie uma classe chamada LeImprimeUmArray com um bloco main.
+
+b) Acrescente a linha import java.util.Scanner; antes da declaração da classe.
+
+c) Dentro do main, declare a variável arrayNumeros inicializando com 10 posições.
+
+d) Declare um laço que se repita de 0 até tamanho do array e utilize a classe Scanner para ler cada elemento de arrayNumeros.
+
+e) Declare um laço que imprima cada elemento de arrayNumeros.
+
+f) Execute a classe e observe o resultado.
+
+
+
+4. Escreva um programa que leia certa quantidade de números armazenando-os em um array e, em seguida, imprima os índices e os valores do maior e do menor número.
+
+a) Crie uma classe chamada MaiorMenorElementoDoArray com um bloco main.
+
+b) Acrescente a linha import java.util.Scanner; antes da declaração da classe.
+
+c) Dentro do main, declare a variável arrayNumeros.
+
+d) Declare também as variáveis valorMenor, indiceMenor, valorMaior e indiceMaior inicializando-as respestivamente com Integer.MAX_VALUE, ZERO, ZERO, ZERO.
+
+e) Utilize a classe Scanner para ler a variável tamanho.
+
+f) Inicialize a variável arrayNumeros com a quantidade de posições definida pela variável tamanho.
+
+g) Declare um laço que se repita de 0 até tamanho do array e utilize a classe Scanner para ler cada elemento de arrayNumeros.
+
+h) Dentro do laço, verifique se o elemento lido é maior que a variável valorMaior, então atribua o elemento a variável valorMaior e atribua o contador do laço a variável indiceMaior.
+
+i) Dentro do laço, verifique se o elemento lido é menor que a variável valorMenor, então atribua o elemento a variável valorMenor e atribua o contador do laço a variável indiceMenor.
+
+j) Imprima as variáveis indiceMaior, valorMaior, indiceMenor e valorMenor.
+
+k) Execute a classe e observe o resultado.
+
+
+
+5. Escreva um programa que localize um funcionário em um array multidimensional a partir da matricula e, em seguida, imprima o respectivo telefone.
+
+a) Crie uma classe chamada LocalizaFuncionarioNoArray com um bloco main.
+
+b) Acrescente a linha import java.util.Scanner; antes da declaração da classe.
+
+c) Dentro do main, declare a variável arrayFuncionarios inicializando com {{1111,30001000},{2222,30002000},{3333,30003000},{4444,30004000},{5555,30005000},{6666,30006000},{7777,30007000}}.
+
+d) Utilize a classe Scanner para ler a variável matricula.
+
+e) Declare um laço que se repita de 0 até o tamanho do array.
+
+f) Dentro do laço, se a variável matrícula é igual a posição ZERO do elemento arrayFuncionarios[], então imprima o valor da posição UM do elemento arrayFuncionarios[] e interrompa o laço.
+
+g) Execute a classe e observe o resultado.
+
+
+
+6. Escreva um programa que armazene em um array multitimensional as notas dos alunos e calcule a média final. Em seguida, imprima essas notas.
+
+a) Crie uma classe chamada Boletim com um bloco main.
+
+b) Acrescente a linha import java.util.Scanner; antes da declaração da classe.
+
+c) Dentro do main, declare a variável arrayNotas 10X3.
+
+d) Declare um laço que se repita de 0 até o tamanho do array e utilize a classe Scanner para ler as duas notas de cada aluno.
+
+e) Dentro no laço, calcule a média e armazene na ultima coluna do array.
+
+f) Declare um laço que imprima as notas e a média de cada aluno.
+
+g) Execute a classe e observe o resultado.
+
+
+
+1. Escreva um programa que modele um carro.
+
+a) Crie uma classe Carro.
+
+b) Dentro da classe, defina os atributos marca (String), ano (int), valor (double).
+
+c) Defina o método serPopular que não recebe parâmetro algum e retorna se o valor do carro é menor do que R$ 25.000,00 (boolean).
+
+d) Defina o método calcularDepreciacao que recebe parâmetro um ano (int) e retorna o valor depreciado do carro (double), sendo que a cada ano perde-se 1% do valor do carro.
+
+e) Cria uma classe TestaCarro contendo um bloco main.
+
+f) Dentro do main, defina uma variável carro e inicialize-a com uma instância de Carro.
+
+g) Atribua valores para os atributos de carro.
+
+h) Imprima se o carro é popular ou não.
+
+i) Imprima o valor do carro em 2020.
+
+j) Execute a classe TestaCarro e observe o resultado.
+
+
+2.Escreva um programa que modele um funcionário.
+
+a) Crie uma classe Funcionario.
+
+b) Dentro da classe, defina os atributos nome (String), cargo (String), salário (double), data de admissão (String).
+
+c) Defina o método receberAumento que aumenta o salário do funcionário de acordo com um percentual (double) passado como parâmetro. Esse método não retorna valor algum.
+
+d) Defina o método calcularGanhoAnual que não recebe parâmetro e retorna o valor do salário multiplicado por 12 (double).
+
+e) Cria uma classe TestaFuncionario contendo um bloco main.
+
+f) Dentro do main, defina uma variável funcionário e inicialize-a com uma instância de Funcionario.
+
+g) Atribua valores para os atributos de funcionário.
+
+i) Imprima o salário de funcionário.
+
+h) Aumente o salário de funcionário em 10%.
+
+i) Imprima novamente o salário de funcionário.
+
+j) Imprima o ganho anual de funcionário.
+
+k) Execute a classe TestaFuncionario e observe o resultado.
+
+l) Altere o encapsulamento dos atributos da classe Funcionario para private.
+
+m) Crie os métodos getters e setters dos atributos da classe Funcionario.
+
+n) Corrija os erros na classe TestaFuncionario.
+
+o) Execute novamente a classe TestaFuncionario e observe o resultado.
+
+
+3. Escreva um programa que modele uma empresa.
+
+a) Crie uma classe Empresa.
+
+b) Dentro da classe, defina os atributos arrayFuncionarios(array de 100 posições de Funcionario) e totalFuncionarios(int).
+
+c) Defina o método contratar que recebe como parâmetro uma instância de Funcionario e não retorna valor. Faça com que esse método atribua à posição totalFuncionarios de arrayFuncionarios o valor do parâmetro de entrada e, em seguida, incremente totalFuncionarios.
+
+d) Defina o método buscarFuncionario que recebe como parâmetro uma posição(int) e retorna uma instância de Funcionario. Faça esse método verificar se a posição é menor que totalFuncionarios, então retorne arrayFuncionario[i]. Caso contrário retorne o valor null.
+
+e) Defina o método buscarFuncionario que recebe como parâmetro um nome(String) e retorna uma instância de Funcionario. Faça um laço que se repita de 0 até totalFuncionarios. Dentro do laço verifique se na posição do contador do laço de arrayFuncionario o nome é igual ao parâmetro de entrada (Dica: arrayFuncionario[i].nome.equals(nome)). Se for igual retorne arrayFuncionario[i] e interrompa o laço. Fora do laço retorne o valor null.
+
+f) Defina o método listarFuncionarios que não recebe parâmetro algum e nem retorna valor. Faça um laço que se repita de 0 até totalFuncionarios e imprima o nome, cargo, salário e data de admissão de cada arrayFuncionarios[i].
+
+g) Cria uma classe TestaEmpresa contendo um bloco main.
+
+h) Dentro do main, defina uma variável empresa e inicialize-a com uma instância de Empresa.
+
+i) Defina uma variável funcionário e inicialize-a com uma instância de Funcionario.
+
+j) Atribua valores para os atributos de funcionário.
+
+k) Faça a empresa contratar o funcionário. 
+
+l) Crie outras instâncias de funcionário para que também sejam contratadas pela empresa.
+
+m) Liste os funcionários contratados pela empresa.
+
+n) Busque um funcionário da empresa na posição 1 armazenando o resultado na variável funcionario. Se a variável funcionario é diferente de null imprima o atributo nome. Caso contrário imprima a mensagem Funcionário não encontrado.
+
+o) Busque um funcionário da empresa através de um nome qualquer, armazenando o resultado na variável funcionario. Se a variável funcionario é diferente de null imprima o atributo cargo. Caso contrário imprima a mensagem Funcionário não encontrado.
+
+p) Execute a classe TestaEmpresa e observe o resultado.
+
+
